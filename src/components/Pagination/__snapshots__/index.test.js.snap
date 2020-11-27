@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should be possible to activate page buttons with Spacebar 1`] = `ReactWrapper {}`;
+
+exports[`Pagination should render correctly each time 1`] = `
+<nav
+  className="pagination d-flex justify-content-center"
+/>
+`;
+
+exports[`Pagination should render correctly with given props 1`] = `ShallowWrapper {}`;

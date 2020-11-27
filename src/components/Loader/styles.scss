@@ -1,0 +1,28 @@
+@import '../../styles/main.scss';
+
+.loader{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: $loader-bg;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        border: 5px solid $loader-color-1;
+        border-top: 5px solid $loader-color-2;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        animation: rotate-loader 2s linear infinite;
+      }
+      
+      @keyframes rotate-loader {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+}

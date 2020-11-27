@@ -1,0 +1,14 @@
+@import '../../styles/main.scss';
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 2em;
+    width: 100%;
+    background-color: $primary-bg;
+    color: $secondary-bg;
+    display: flex;
+    justify-content: flex-start;
+    font-family: FredokaOne;
+    z-index: 10;
+}

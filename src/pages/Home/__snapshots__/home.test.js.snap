@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home SearchBar should render correctly with props 1`] = `ShallowWrapper {}`;
+
+exports[`SearchBar SearchBar should render correctly with props 1`] = `ShallowWrapper {}`;

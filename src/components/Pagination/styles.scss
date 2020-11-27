@@ -1,0 +1,15 @@
+@import '../../styles/main.scss';
+
+.pagination{
+    &--btn{
+        background-color: $secondary-text;
+        color: $primary-bg;
+        border: none;
+        outline: none;
+
+        &.active{
+            background-color: $primary-bg;
+            color: $secondary-text;
+        }
+    }
+}

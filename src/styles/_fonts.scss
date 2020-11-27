@@ -1,0 +1,33 @@
+/* Font Sizes */
+h1{
+    font-size: 4em;
+    font-weight: 700;
+    @media only screen and (max-width: $tablet-max) {
+        font-size: 2em;
+    }
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    @media only screen and (max-width: $tablet-max) {
+        font-size: 1.5em;
+    }
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    @media only screen and (max-width: $tablet-max) {
+        font-size: 1em;
+    }
+}
+
+// FONT FAMILIES
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), url(./../assets/fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+  }
+
+  @font-face {
+    font-family: 'FredokaOne';
+    src: local('FredokaOne'), url(./../assets/fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+  }
