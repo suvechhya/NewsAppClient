@@ -4,6 +4,11 @@ import clsx from 'clsx';
 
 const Header = ({limit, selected, parentCallback}) => {
     const [items, setItems] = useState([]);
+
+    /* Currently, the NewsAPI service doesn't return the total number of pages
+    available for the search, hence defaulting the limit to 4 to showcase the
+    pagination. Eventually the limit will be fetched from the search API.
+    Separating out value and label, to later accomodate custom labels */
     useEffect(() => {
         if(limit && limit>0) {
             const tempItems = [];
